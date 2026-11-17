@@ -1,0 +1,6 @@
+{
+  "name": "Trend Video Engine",
+  "description": "Automated short-form vertical video production platform that explains why trends happen and answers user search intent.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

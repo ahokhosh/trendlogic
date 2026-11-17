@@ -1,0 +1,15 @@
+{
+  "id": "trendlogic",
+  "name": "Trend Video Engine",
+  "nameEn": "Trend Video Engine",
+  "description": "Automated short-form vertical video production platform that explains why trends happen and answers user search intent.",
+  "icon": "/icons/trendlogic.svg",
+  "color": "#ec4899",
+  "upstream": "http://trendlogic:3000",
+  "health": "/api/health",
+  "rewrites": [
+    "\"/assets/", "'/assets/", "`/assets/",
+    "\"/api", "'/api", "`/api",
+    "\"/videos/", "'/videos/", "`/videos/"
+  ]
+}
